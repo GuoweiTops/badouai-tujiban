@@ -1,0 +1,17 @@
+model_path,train_data_path,valid_data_path,vocab_path,model_type,max_length,hidden_size,kernel_size,num_layers,epoch,batch_size,pooling_style,optimizer,learning_rate,pretrain_model_path,seed,result
+output,../train_tag_news.json,../valid_tag_news.json,../chars.txt,cnn,20,128,3,2,10,64,max,adam,0.001,E:\八斗AI\第六周\bert-base-chinese,1024,0.6583333333333333
+output,../train_tag_news.json,../valid_tag_news.json,../chars.txt,cnn,20,64,3,2,10,64,max,adam,0.001,E:\八斗AI\第六周\bert-base-chinese,1024,0.5388888888888889
+output,../train_tag_news.json,../valid_tag_news.json,../chars.txt,cnn,20,128,3,2,10,64,max,adam,0.001,E:\八斗AI\第六周\bert-base-chinese,1024,0.6305555555555555
+output,../train_tag_news.json,../valid_tag_news.json,../chars.txt,cnn,20,64,3,2,10,64,max,adam,0.001,E:\八斗AI\第六周\bert-base-chinese,1024,0.49444444444444446
+output,../train_tag_news.json,../valid_tag_news.json,../chars.txt,gated_cnn,20,128,3,2,10,64,max,adam,0.001,E:\八斗AI\第六周\bert-base-chinese,1024,0.65
+output,../train_tag_news.json,../valid_tag_news.json,../chars.txt,gated_cnn,20,64,3,2,10,64,max,adam,0.001,E:\八斗AI\第六周\bert-base-chinese,1024,0.5388888888888889
+output,../train_tag_news.json,../valid_tag_news.json,../chars.txt,gated_cnn,20,128,3,2,10,64,max,adam,0.001,E:\八斗AI\第六周\bert-base-chinese,1024,0.6388888888888888
+output,../train_tag_news.json,../valid_tag_news.json,../chars.txt,gated_cnn,20,64,3,2,10,64,max,adam,0.001,E:\八斗AI\第六周\bert-base-chinese,1024,0.5277777777777778
+output,../train_tag_news.json,../valid_tag_news.json,../chars.txt,lstm,20,128,3,2,10,64,max,adam,0.001,E:\八斗AI\第六周\bert-base-chinese,1024,0.5305555555555556
+output,../train_tag_news.json,../valid_tag_news.json,../chars.txt,lstm,20,64,3,2,10,64,max,adam,0.001,E:\八斗AI\第六周\bert-base-chinese,1024,0.3527777777777778
+output,../train_tag_news.json,../valid_tag_news.json,../chars.txt,lstm,20,128,3,2,10,64,max,adam,0.001,E:\八斗AI\第六周\bert-base-chinese,1024,0.5638888888888889
+output,../train_tag_news.json,../valid_tag_news.json,../chars.txt,lstm,20,64,3,2,10,64,max,adam,0.001,E:\八斗AI\第六周\bert-base-chinese,1024,0.38055555555555554
+output,../train_tag_news.json,../valid_tag_news.json,../chars.txt,gru,20,128,3,2,10,64,max,adam,0.001,E:\八斗AI\第六周\bert-base-chinese,1024,0.5555555555555556
+output,../train_tag_news.json,../valid_tag_news.json,../chars.txt,gru,20,64,3,2,10,64,max,adam,0.001,E:\八斗AI\第六周\bert-base-chinese,1024,0.41388888888888886
+output,../train_tag_news.json,../valid_tag_news.json,../chars.txt,gru,20,128,3,2,10,64,max,adam,0.001,E:\八斗AI\第六周\bert-base-chinese,1024,0.5944444444444444
+output,../train_tag_news.json,../valid_tag_news.json,../chars.txt,gru,20,64,3,2,10,64,max,adam,0.001,E:\八斗AI\第六周\bert-base-chinese,1024,0.38333333333333336
